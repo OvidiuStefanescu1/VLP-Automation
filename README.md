@@ -1,4 +1,4 @@
-# otto-automation
+# vlp-automation
 ## Description
 This project is meant to facilitate testing the main flows of the application whenever needed or after any major changes to ensure the core functionality of the application and the plugins still work accordingly.
 While this doesn't completely replace the manual testing part for the application, it helps with testing the most important flows and provides an easy to access and use smoke testing session.
