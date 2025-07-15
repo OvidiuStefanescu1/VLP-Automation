@@ -1,0 +1,34 @@
+# Node.js specific
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# TypeScript specific
+*.tsbuildinfo
+dist/
+build/
+
+# Playwright specific
+test-results/
+test-results-custom/
+playwright-report/
+trace.zip
+test-results.json
+results.json
+screenshots/
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Custom directories
+.vscode
+
+# Test outputs
+test-outputs/
