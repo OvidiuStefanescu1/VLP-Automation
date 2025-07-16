@@ -1,6 +1,6 @@
 import { test, expect, BrowserContext, Page } from '@playwright/test';
 import { RegularLoginFlow } from '../pageObject/flows/RegularLoginFlow';
-import loginData from '../../testData/loginData.json'; // <--- import datele de login
+import loginData from '../../testData/loginData.json';
 
 test.describe("Login flows using username and password", () => {
     let page: Page;

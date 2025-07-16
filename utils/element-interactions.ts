@@ -13,4 +13,12 @@ export class ElementInteractions {
         await locator.fill(text);
     }
 
+    async scrollIntoViewIfNeeded(locator: Locator) {
+    const isVisible = await locator.isVisible();
+    if (!isVisible) {
+        await locator.scrollIntoViewIfNeeded();
+    }
+}
+
+
 }
