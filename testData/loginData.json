@@ -1,0 +1,14 @@
+{
+  "admin": {
+    "username": "test_admin",
+    "password": "Usv123.."
+  },
+  "professor": {
+    "username": "test_professor",
+    "password": "Usv123.."
+  },
+  "student": {
+    "username": "test_student",
+    "password": "Usv123.."
+  }
+}

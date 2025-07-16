@@ -5,10 +5,10 @@ test.describe("This is the first test and is supposed to open Google", () => {
 
     test.beforeEach(async ({ context }) => {
         page = await context.newPage();
+        await page.goto('https://vlp.at.assistcloud.services/');
     });
 
     test("This is simply supposed to open Google", async () => {
-        await page.goto('https://www.google.com');
         await page.waitForTimeout(5000);
     });
 });

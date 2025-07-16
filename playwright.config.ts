@@ -11,8 +11,8 @@ const configBase: PlaywrightTestConfig = {
         viewport: { width: 1280, height: 720 },
         ignoreHTTPSErrors: true,
         video: 'retain-on-failure',
-        actionTimeout: 35000,
-        navigationTimeout: 20000,
+        actionTimeout: 15000,
+        navigationTimeout: 10000,
 
     },
     testMatch: testPaths.testMatch
